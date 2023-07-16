@@ -1,75 +1,80 @@
 body {
-    background-color: #edcdf0;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: #36454F;
+  background-color: #edcdf0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #36454f;
 }
 
 .flex-container {
-    display: flex;
-    flex-wrap: wrap; 
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .flex-card {
-    flex: 1;
-    flex-grow: 1;
-    flex-shrink: 0;
-    flex-basis:300px;
-    display: flex;
-    flex-wrap: wrap;
-    background: #fde36f;
-    margin: 2rem;
-    -webkit-transition: all 250ms;
-    -moz-transition: all 250ms;
-    transition: all 250ms;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23); 
+  flex: 1;
+  flex-grow: 1;
+  flex-shrink: 0;
+  flex-basis: 300px;
+  display: flex;
+  flex-wrap: wrap;
+  background: #fde36f;
+  margin: 2rem;
+  -webkit-transition: all 250ms;
+  -moz-transition: all 250ms;
+  transition: all 250ms;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
 }
 
 .flex-card div {
-flex: 100%; 
+  flex: 100%;
 }
 
 .flex-card .hero {
-    position: relative;
-    color: #e9e6e6;
-    height: 250px;
+  position: relative;
+  color: #e9e6e6;
+  height: 250px;
 }
 
 .flex-card .hero h3 {
-    position: relative;
-    text-align: center;
-    bottom: 15px;
-    left: 0;
-    padding: 0 1rem; 
+  position: relative;
+  text-align: center;
+  bottom: 15px;
+  left: 0;
+  padding: 0 1rem;
 }
 
 .flex-card .content {
-    padding: 1.5rem 1rem  0 1rem; 
+  padding: 1.5rem 1rem 0 1rem;
 }
 
 .flex-card .footer {
-    padding: 0;
-    border-top: 1px solid #eee;
-    align-self: flex-end;
+  padding: 0;
+  border-top: 1px solid #eee;
+  align-self: flex-end;
 }
 
 .new {
-    padding-top: 20px;
+  padding-top: 20px;
 }
-h2, h3, h4, p {
-    text-align: center;
+h2,
+h3,
+h4,
+p {
+  text-align: center;
 }
 
 .img1 {
-    background: url("https://www.iiit.ac.in/gallery/images/campus/07(1).jpg") no-repeat;
-    background-size: cover;
+  background: url("https://www.iiit.ac.in/gallery/images/campus/07(1).jpg")
+    no-repeat;
+  background-size: cover;
 }
 
 .img2 {
-    background: url("../img/DPS.jpg") no-repeat;
-    background-size: cover;
+  background: url("../img/DPS.jpg") no-repeat;
+  background-size: cover;
 }
 
 .img3 {
-    background: url("https://www.yallaschools.com/uploads/Crescent_English_School,_Dubai.jpg") no-repeat;
-    background-size: cover;
+  background: url("https://www.yallaschools.com/uploads/Crescent_English_School,_Dubai.jpg")
+    no-repeat;
+  background-size: cover;
 }

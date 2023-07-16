@@ -1,12 +1,11 @@
-
 /* Fonts */
-body{
-    background-color: #edcdf0;
-  }
+body {
+  background-color: #edcdf0;
+}
 
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:300,700);
 body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-size: 18px;
   font-weight: 400;
   line-height: 1.1;
@@ -19,70 +18,70 @@ body {
   margin: 2em auto;
   position: relative;
   max-width: 900px;
-  list-style: none; 
+  list-style: none;
 }
 
 .timeline:before {
-    background-color: black;
-    content: " ";
-    margin-left: -1px;
-    position: absolute;
-    top: -3em;
-    left: 5.3em;
-    width: 2px;
-    height: 100%;
-  }
+  background-color: black;
+  content: " ";
+  margin-left: -1px;
+  position: absolute;
+  top: -3em;
+  left: 5.3em;
+  width: 2px;
+  height: 100%;
+}
 
 .timeline-event {
-  position: relative;    
-    }
+  position: relative;
+}
 
-.timeline-event .timeline-event-copy  h3 {
-        color: #FE0000; 
-        font-weight: 600;
-      }
+.timeline-event .timeline-event-copy h3 {
+  color: #fe0000;
+  font-weight: 600;
+}
 
 .timeline-event .timeline-event-thumbnail {
-      box-shadow: 0 0 11px rgba(33,33,33,.2); 
-      background-color: #1f9bcf;
-    }
+  box-shadow: 0 0 11px rgba(33, 33, 33, 0.2);
+  background-color: #1f9bcf;
+}
 
 .timeline-event:hover .timeline-event-icon {
-      transform: rotate(226deg);
-      transition: all 0.3s ease-in-out 0s;
-      background-color: #1f9bcf;
-    }
+  transform: rotate(226deg);
+  transition: all 0.3s ease-in-out 0s;
+  background-color: #1f9bcf;
+}
 
 .timeline-event-copy {
-  padding: .25em 1em;
+  padding: 0.25em 1em;
   position: relative;
   top: -3em;
   left: 5.5em;
-  width: 80%;  
+  width: 80%;
 }
 
 .timeline-event-copy p:not(.timeline-event-thumbnail) {
-    padding-top: 0.5em;
-    padding-bottom: .2em;
-  }
+  padding-top: 0.5em;
+  padding-bottom: 0.2em;
+}
 
 .timeline-event-copy strong {
-    font-weight: 700;
-  }
+  font-weight: 700;
+}
 
 .timeline-event-copy h3 {
-    font-size: 1.25em;
-  }
+  font-size: 1.25em;
+}
 
 .timeline-event-copy h4 {
-    font-size: 1.2em;
-    margin-bottom: .1em;
-    color: #010080;
-  }
+  font-size: 1.2em;
+  margin-bottom: 0.1em;
+  color: #010080;
+}
 
 .timeline-event-icon {
   transform: rotate(45deg);
-  
+
   background-color: black;
   outline: 10px solid white;
   display: block;
@@ -105,39 +104,41 @@ body {
   padding: 0.25em 1em 0.2em 1em;
 }
 
-
 @keyframes color_change {
-	0% { color: black; }
-	100% { color: #1f9bcf; }
+  0% {
+    color: black;
+  }
+  100% {
+    color: #1f9bcf;
+  }
 }
 
 .exp {
-    padding-top: 50px;
+  padding-top: 50px;
 }
 
 span {
   font-size: 18px !important;
 }
 
-
 .read-more a {
-   text-align: center;
-	 background-color: #E600E6;
-	 border-radius: 25px;
-	 padding: 8px 10px;
-	 display: inline-block;
-	 position: relative;
-   font-size: 15px;
-   color: #ffffff !important;
-   cursor: pointer;
+  text-align: center;
+  background-color: #e600e6;
+  border-radius: 25px;
+  padding: 8px 10px;
+  display: inline-block;
+  position: relative;
+  font-size: 15px;
+  color: #ffffff !important;
+  cursor: pointer;
 }
 .read-more a:after {
-	 content: "\f061";
-	 font-family: FontAwesome;
-	 margin-left: 3px;
-	 vertical-align: middle;
-	 transition: margin 0.3s, opacity 0.3s;
+  content: "\f061";
+  font-family: FontAwesome;
+  margin-left: 3px;
+  vertical-align: middle;
+  transition: margin 0.3s, opacity 0.3s;
 }
 .read-more a:hover:after {
-	 margin-left: 10px;
+  margin-left: 10px;
 }

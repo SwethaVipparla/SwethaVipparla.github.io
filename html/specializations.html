@@ -1,240 +1,357 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
 
-    <head>
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.6.0/mdb.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
 
-        <!-- Required meta tags -->
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Google Font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lora:wght@500&display=swap"
+      rel="stylesheet"
+    />
 
-        <!-- Bootstrap CSS -->
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-            integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-        <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.6.0/mdb.min.css" rel="stylesheet" />
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="../css/specializations.css" />
+    <link rel="stylesheet" href="../css/navbar.css" />
+    <link rel="stylesheet" href="../css/footer.css" />
 
-        <!-- Google Font -->
-        <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;700&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Lora:wght@500&display=swap" rel="stylesheet">
+    <title>Swetha/Specializations</title>
+  </head>
 
-        <!-- Custom CSS -->
-        <link rel="stylesheet" href="../css/specializations.css">
-        <link rel="stylesheet" href="../css/navbar.css">
-        <link rel="stylesheet" href="../css/footer.css">
-
-        <title>Swetha/Specializations</title>
-
-    </head>
-
-    <body>
-
-        <div id="container">
-            <nav id="mainNavbar" class="navbar navbar-expand-md py-2 md-py-0">
-                <button type="button" style="background:none;border:none" class="navbar-toggler" data-toggle="collapse" data-target="#navLinks" aria-label="Toggle Navigation">
-                    <span class="fa fa-reorder"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navLinks">
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item ">
-                            <a href="index.html" class="nav-link" onmouseover="hover(this)" onmouseout="reset(this)"> 
-                                 <strong>About Me </strong>
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="experience.html" class="nav-link" onmouseover="hover(this)" onmouseout="reset(this)">
-                                <strong> Experience </strong>
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="projects.html" class="nav-link" onmouseover="hover(this)" onmouseout="reset(this)">
-                               <strong> Projects </strong>
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="skills.html" class="nav-link" onmouseover="hover(this)" onmouseout="reset(this)">
-                                <strong> Skills </strong>
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="education.html" class="nav-link" onmouseover="hover(this)" onmouseout="reset(this)">
-                               <strong> Education </strong>
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="specializations.html" class="nav-link active" onmouseover="hover(this)" onmouseout="reset(this)">
-                                <strong> Specializations </strong>
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="scholastics.html" class="nav-link" onmouseover="hover(this)" onmouseout="reset(this)">
-                                <strong>Scholastics </strong>
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="extracurriculars.html" class="nav-link" onmouseover="hover(this)" onmouseout="reset(this)">
-                                <strong> Extracurriculars </strong>
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="contact.html" class="nav-link" onmouseover="hover(this)" onmouseout="reset(this)">
-                                <strong>Contact</strong>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
+  <body>
+    <div id="container">
+      <nav id="mainNavbar" class="navbar navbar-expand-md py-2 md-py-0">
+        <button
+          type="button"
+          style="background: none; border: none"
+          class="navbar-toggler"
+          data-toggle="collapse"
+          data-target="#navLinks"
+          aria-label="Toggle Navigation"
+        >
+          <span class="fa fa-reorder"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navLinks">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a
+                href="index.html"
+                class="nav-link"
+                onmouseover="hover(this)"
+                onmouseout="reset(this)"
+              >
+                <strong>About Me </strong>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a
+                href="experience.html"
+                class="nav-link"
+                onmouseover="hover(this)"
+                onmouseout="reset(this)"
+              >
+                <strong> Experience </strong>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a
+                href="projects.html"
+                class="nav-link"
+                onmouseover="hover(this)"
+                onmouseout="reset(this)"
+              >
+                <strong> Projects </strong>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a
+                href="skills.html"
+                class="nav-link"
+                onmouseover="hover(this)"
+                onmouseout="reset(this)"
+              >
+                <strong> Skills </strong>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a
+                href="education.html"
+                class="nav-link"
+                onmouseover="hover(this)"
+                onmouseout="reset(this)"
+              >
+                <strong> Education </strong>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a
+                href="specializations.html"
+                class="nav-link active"
+                onmouseover="hover(this)"
+                onmouseout="reset(this)"
+              >
+                <strong> Specializations </strong>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a
+                href="scholastics.html"
+                class="nav-link"
+                onmouseover="hover(this)"
+                onmouseout="reset(this)"
+              >
+                <strong>Scholastics </strong>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a
+                href="extracurriculars.html"
+                class="nav-link"
+                onmouseover="hover(this)"
+                onmouseout="reset(this)"
+              >
+                <strong> Extracurriculars </strong>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a
+                href="contact.html"
+                class="nav-link"
+                onmouseover="hover(this)"
+                onmouseout="reset(this)"
+              >
+                <strong>Contact</strong>
+              </a>
+            </li>
+          </ul>
         </div>
+      </nav>
+    </div>
 
-        <div class="container2">
-            <h1 style="text-align: center;"><strong>Specialized Courses Accomplishments</strong></h1>
-                <div class="container-heading">
-                    I am constantly seeking to learn new skills and gain expertise in various advanced fields of Computer Science. This everlasting thrust made me to put sincere efforts and accomplish following Specialized Certificate Courses and related Projects which has given me not only invaluable experience but also all-round capabilities in latest Computing Technologies.<br>
-                My specialized areas, along with the certifications are as follows:
-                </div>
-        </div>
-        
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-4 col-md-6">
-                <div class="card" id="myImg">
-                    <div class="featured-image">
-                    <img src="https://miro.medium.com/max/1400/1*sMryEXZVPKFjGNcfSzE8Mw.jpeg" alt="Data Structures and Algorithms" />
-                    </div>
-                    <div class="content"> 
-                        <strong>View Certifications </strong> 
-                    </div>
-                </div>
-                </div>
+    <div class="container2">
+      <h1 style="text-align: center">
+        <strong>Specialized Courses Accomplishments</strong>
+      </h1>
+      <div class="container-heading">
+        I am constantly seeking to learn new skills and gain expertise in
+        various fields of computer science. I have accomplished multiple
+        specialized certification courses, which have given me not only
+        invaluable experience but also all-round capabilities in the latest
+        computing technologies.<br />
+      </div>
+    </div>
 
-                <div class="col-lg-4 col-md-6">
-                <div class="card" id="myImg3">
-                    <div class="featured-image">
-                    <img src="https://blog.knoldus.com/wp-content/uploads/2021/07/1_ngkHgQq7ij1NBNr62er3zA.png" alt="Cloud Development"/>
-                    </div>
-                    <div class="content new"> 
-                         <strong>View Certifications </strong> 
-                    </div>
-                </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6">
-                <div class="card" id="myImg4">
-                    <div class="featured-image">
-                    <img src="https://www.cyberbahnit.com/wp-content/uploads/2017/11/blockchain.jpg" alt="Blockchain"/>
-                    </div>
-                    <div class="content new"> 
-                        <strong>View Certifications </strong> 
-                    </div>
-                </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6">
-                <div class="card" id="myImg5">
-                    <div class="featured-image">
-                    <img src="https://financialtribune.com/sites/default/files/field/image/17january/15_ai_set.jpg" alt="AI and ML"/>
-                    </div>
-                    <div class="content new"> 
-                        <strong>View Certifications </strong> 
-                    </div>
-                </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6">
-                <div class="card" id="myImg6">
-                    <div class="featured-image">
-                    <img src="https://www.onlinecoursereport.com/wp-content/uploads/2020/07/shutterstock_394793860-1024x784.jpg" alt="Web Development"/>
-                    </div>
-                    <div class="content new"> 
-                        <strong>View Certifications </strong> 
-                    </div>
-                </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6">
-                <div class="card" id="myImg2">
-                    <div class="featured-image">
-                    <img src="https://dailyillini.com/wp-content/uploads/2018/02/Networking-01.png" alt="Networking" />
-                    </div>
-                    <div class="content new"> 
-                         <strong>View Certifications </strong> 
-                    </div>
-                </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6">
-                <div class="card" id="myImg10">
-                    <div class="featured-image">
-                    <img src="https://images.yourstory.com/cs/2/220356402d6d11e9aa979329348d4c3e/Automation-1592488811781.png?w=1200" alt="IT Automation" />
-                    </div>
-                    <div class="content new"> 
-                         <strong>View Certifications </strong> 
-                    </div>
-                </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6">
-                <div class="card" id="myImg7">
-                    <div class="featured-image">
-                    <img src="https://gtecvirtualuniversity.com/wp-content/uploads/2020/05/java-5.jpg" alt="Java"/>
-                    </div>
-                    <div class="content new"> 
-                        <strong>View Certifications </strong> 
-                    </div>
-                </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6">
-                <div class="card" id="myImg8">
-                    <div class="featured-image">
-                    <img src="https://online.crbtech.in/wp-content/uploads/2019/03/C-programming-1024x530.png" alt="C"/>
-                    </div>
-                    <div class="content new"> 
-                        <strong>View Certifications </strong> 
-                    </div>
-                </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6">
-                <div class="card" id="myImg9">
-                    <div class="featured-image">
-                    <img src="https://miro.medium.com/max/840/1*RJMxLdTHqVBSijKmOO5MAg.jpeg" alt="Python"/>
-                    </div>
-                    <div class="content new"> 
-                         <strong>View Certifications </strong> 
-                    </div>
-                </div>
-                </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 col-md-6">
+          <div class="card" id="myImg">
+            <div class="featured-image">
+              <img
+                src="https://miro.medium.com/max/1400/1*sMryEXZVPKFjGNcfSzE8Mw.jpeg"
+                alt="Data Structures and Algorithms"
+              />
             </div>
+            <div class="content">
+              <strong>View Certifications </strong>
+            </div>
+          </div>
         </div>
 
-        <div id="myModal" class="modal">
-            <span class="close" onclick="document.getElementById('myModal').style.display='none'">&times;</span>
-            <img class="modal-content" id="img01">
-            <div id="caption"></div>
+        <div class="col-lg-4 col-md-6">
+          <div class="card" id="myImg3">
+            <div class="featured-image">
+              <img
+                src="https://blog.knoldus.com/wp-content/uploads/2021/07/1_ngkHgQq7ij1NBNr62er3zA.png"
+                alt="Cloud Development"
+              />
+            </div>
+            <div class="content new">
+              <strong>View Certifications </strong>
+            </div>
+          </div>
         </div>
-        <div id="myModal1" class="modal">
-            <span class="close" onclick="document.getElementById('myModal1').style.display='none'">&times;</span>
-            <img class="modal-content" id="img02">
-            <div id="caption"></div>
+
+        <div class="col-lg-4 col-md-6">
+          <div class="card" id="myImg4">
+            <div class="featured-image">
+              <img
+                src="https://www.cyberbahnit.com/wp-content/uploads/2017/11/blockchain.jpg"
+                alt="Blockchain"
+              />
+            </div>
+            <div class="content new">
+              <strong>View Certifications </strong>
+            </div>
+          </div>
         </div>
 
-        <!-- External JS -->
-        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-                integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-                crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-                integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-                crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
-                integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
-                crossorigin="anonymous"></script>
+        <div class="col-lg-4 col-md-6">
+          <div class="card" id="myImg5">
+            <div class="featured-image">
+              <img
+                src="https://financialtribune.com/sites/default/files/field/image/17january/15_ai_set.jpg"
+                alt="AI and ML"
+              />
+            </div>
+            <div class="content new">
+              <strong>View Certifications </strong>
+            </div>
+          </div>
+        </div>
 
-        <!-- Custom JS -->
-        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.6.0/mdb.min.js"></script>
-        <script type="text/javascript" src="../js/navbar.js"></script>
-        <script type="text/javascript" src="../js/skills.js"></script>
-        <script type="text/javascript" src="../js/specializations.js"></script>
+        <div class="col-lg-4 col-md-6">
+          <div class="card" id="myImg6">
+            <div class="featured-image">
+              <img
+                src="https://www.onlinecoursereport.com/wp-content/uploads/2020/07/shutterstock_394793860-1024x784.jpg"
+                alt="Web Development"
+              />
+            </div>
+            <div class="content new">
+              <strong>View Certifications </strong>
+            </div>
+          </div>
+        </div>
 
-    </body>
+        <div class="col-lg-4 col-md-6">
+          <div class="card" id="myImg2">
+            <div class="featured-image">
+              <img
+                src="https://dailyillini.com/wp-content/uploads/2018/02/Networking-01.png"
+                alt="Networking"
+              />
+            </div>
+            <div class="content new">
+              <strong>View Certifications </strong>
+            </div>
+          </div>
+        </div>
 
+        <div class="col-lg-4 col-md-6">
+          <div class="card" id="myImg10">
+            <div class="featured-image">
+              <img
+                src="https://images.yourstory.com/cs/2/220356402d6d11e9aa979329348d4c3e/Automation-1592488811781.png?w=1200"
+                alt="IT Automation"
+              />
+            </div>
+            <div class="content new">
+              <strong>View Certifications </strong>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6">
+          <div class="card" id="myImg7">
+            <div class="featured-image">
+              <img
+                src="https://gtecvirtualuniversity.com/wp-content/uploads/2020/05/java-5.jpg"
+                alt="Java"
+              />
+            </div>
+            <div class="content new">
+              <strong>View Certifications </strong>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6">
+          <div class="card" id="myImg8">
+            <div class="featured-image">
+              <img
+                src="https://online.crbtech.in/wp-content/uploads/2019/03/C-programming-1024x530.png"
+                alt="C"
+              />
+            </div>
+            <div class="content new">
+              <strong>View Certifications </strong>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6">
+          <div class="card" id="myImg9">
+            <div class="featured-image">
+              <img
+                src="https://miro.medium.com/max/840/1*RJMxLdTHqVBSijKmOO5MAg.jpeg"
+                alt="Python"
+              />
+            </div>
+            <div class="content new">
+              <strong>View Certifications </strong>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="myModal" class="modal">
+      <span
+        class="close"
+        onclick="document.getElementById('myModal').style.display='none'"
+        >&times;</span
+      >
+      <img class="modal-content" id="img01" />
+      <div id="caption"></div>
+    </div>
+    <div id="myModal1" class="modal">
+      <span
+        class="close"
+        onclick="document.getElementById('myModal1').style.display='none'"
+        >&times;</span
+      >
+      <img class="modal-content" id="img02" />
+      <div id="caption"></div>
+    </div>
+
+    <!-- External JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Custom JS -->
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.6.0/mdb.min.js"
+    ></script>
+    <script type="text/javascript" src="../js/navbar.js"></script>
+    <script type="text/javascript" src="../js/skills.js"></script>
+    <script type="text/javascript" src="../js/specializations.js"></script>
+  </body>
 </html>

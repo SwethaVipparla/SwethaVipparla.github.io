@@ -1,51 +1,50 @@
 #mainNavbar {
-    font-size: 1.2rem;
-    font-weight: 100;
-	background: rgba(138, 90, 250, 1) ;
-    
+  font-size: 1.2rem;
+  font-weight: 100;
+  background: rgba(138, 90, 250, 1);
 }
 
 #mainNavbar .navbar-brand {
-    color: #ff1b2e;
-    font-size: 1.5rem;
+  color: #ff1b2e;
+  font-size: 1.5rem;
 }
 
 .fixed {
-    position: fixed;
-    top:0;
-    width:100%;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
 .navbar.scrolled {
-    background: rgba(138, 90, 250, 1) ;
-    transition: background 500ms;
+  background: rgba(138, 90, 250, 1);
+  transition: background 500ms;
 }
 
 @media (max-width: 1500px) {
-    #headingGroup h1 {
-        font-weight: 100;
-        font-size: 2rem;
-    }
+  #headingGroup h1 {
+    font-weight: 100;
+    font-size: 2rem;
+  }
 
-    .nav-item a.active {
-        border-radius: 25px;
-        padding: 10px;
-    }
+  .nav-item a.active {
+    border-radius: 25px;
+    padding: 10px;
+  }
 }
 
 .ml-auto {
-	padding-right: 80px;
+  padding-right: 80px;
 }
 
 .nav-item a {
-	color: rgb(246, 250, 254);
+  color: rgb(246, 250, 254);
 }
 
-.nav-item{
-    padding: 0 10px 0 20px;
+.nav-item {
+  padding: 0 10px 0 20px;
 }
 
 .nav-item a.active {
-    background: #500af3e1;
-    border-radius: 25px;
+  background: #500af3e1;
+  border-radius: 25px;
 }
