@@ -178,14 +178,14 @@ h3 {
     flex-direction: row;
     max-width: 700px;
   }
-  .blog-card .meta {
+  /* .blog-card .meta {
     flex-basis: 40%;
     height: auto;
-  }
-  .blog-card .description {
+  } */
+  /* .blog-card .description {
     flex-basis: 60%;
-  }
-  .blog-card .description:before {
+  } */
+  /* .blog-card .description:before {
     transform: skewX(-3deg);
     content: "";
     background: #fff;
@@ -195,7 +195,7 @@ h3 {
     top: 0;
     bottom: 0;
     z-index: -1;
-  }
+  } */
   .blog-card.alt {
     flex-direction: row-reverse;
   }
